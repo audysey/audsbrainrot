@@ -8,7 +8,7 @@ meme_dict = {
             }
 
 
-For i in range[5]:
+for i in range(5):
     word = input("Type which slang you wish to understand (Please use all caps): ")
     
     if word in meme_dict.keys():
