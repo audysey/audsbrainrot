@@ -1,0 +1,17 @@
+meme_dict = {
+            "CRINGE": "Something that is considered as humiliating or weird",
+            "LOL": "Laugh Out Loud",
+            "RIZZ": "Skill in charming another person",
+            "DELULU": "A delusional person",
+            "SLAY": "Someone who has done so exceptionally well",
+            "FR": "For real"
+            }
+
+
+For i in range[5]:
+    word = input("Type which slang you wish to understand (Please use all caps): ")
+    
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print('Word is not available.')
